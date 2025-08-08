@@ -1,0 +1,479 @@
+/* CSS for section section:commissions */
+.commissions-section {
+  padding: 88px 0;
+
+}
+
+.section-title {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 94px;
+}
+
+.section-title .lowercase {
+  text-transform: lowercase;
+}
+
+.commissions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.commission-card {
+  display: flex;
+  align-items: center;
+  gap: 78px;
+  background-color: #ffffff;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.commission-image-wrapper {
+  flex-shrink: 0;
+  position: relative;
+  padding-left: 160px;
+
+}
+
+.commission-image-frame {
+  width: 363px;
+  height: 427px;
+  background-color: #ffffff;
+  border: 10px solid #f0f2f5;
+  border-radius: 4.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commission-image-frame.alt-border {
+  border-color: #ffffff;
+  background-color: #f0f2f5;
+}
+
+.commission-image {
+  width: 315px;
+  height: 379px;
+  object-fit: cover;
+}
+
+.commission-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-self: stretch;
+  padding-top: 21px;
+}
+
+.commission-name {
+  font-size: 30px;
+  font-weight: 700;
+  color: #0a0c0f;
+  line-height: 1.6;
+}
+
+.commission-constituted {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+  line-height: 1.6;
+}
+
+.commission-members {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--text-body);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.commission-members p {
+  margin: 0;
+}
+
+.commission-members strong {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+.commission-members .member-detail {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  /* padding-left: 100px; */
+  display: inline-block;
+}
+
+.commission-content .btn {
+  margin-top: auto;
+  align-self: flex-start;
+  padding: 12px 32px;
+}
+
+.commission-content .btn-icon img {
+  width: 24.5px;
+  height: 24.5px;
+  transform: rotate(0deg);
+}
+
+/* Default background for all commission cards */
+.commission-card {
+  background-color: #ffffff;
+  /* other styles */
+}
+
+/* Override background only for Sarkaria Commission card */
+.commission-card-sarkaria {
+  background-color: #F0F2F5;
+}
+/* Align roles (Chairman, Member) and allow bold names and light designations */
+.member-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.member-role {
+  min-width: 120px;
+  font-weight: 700;
+  color: #0a0c0f;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.member-name {
+  font-weight: 700;
+  color: #0a0c0f;
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 1.4;
+}
+
+.member-detail {
+  font-weight: 400;
+  color: var(--text-body);
+  font-family: 'Libre Franklin', sans-serif;
+  padding-left: 0; /* already indented by layout */
+  line-height: 1.4;
+}
+
+
+@media (max-width: 992px) {
+  .commission-card {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  .commission-content {
+    align-items: center;
+    padding-top: 0;
+  }
+  .commission-members .member-detail {
+    padding-left: 0;
+    display: block;
+  }
+  .commission-content .btn {
+    align-self: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .commissions-section {
+    padding: 40px 0;
+  }
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  .commission-image-frame {
+    width: 300px;
+    height: auto;
+  }
+  .commission-image {
+    width: 260px;
+    height: auto;
+  }
+}
+/* Devices: 1440px and above (Desktops, large screens) */
+@media (min-width: 1440px) {
+  .commission-card {
+    gap: 78px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .commission-image-frame {
+    width: 363px;
+    height: 427px;
+  }
+
+  .commission-image {
+    width: 315px;
+    height: 379px;
+  }
+
+  .commission-content {
+    padding-top: 21px;
+  }
+}
+
+/* Devices: 1024px – 1439px (Laptops) */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .commission-card {
+    gap: 60px;
+  }
+
+  .commission-image-wrapper {
+    padding-left: 100px;
+  }
+
+  .commission-image-frame {
+    width: 320px;
+    height: auto;
+  }
+
+  .commission-image {
+    width: 280px;
+    height: auto;
+  }
+}
+
+/* Devices: 768px – 1023px (Tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .commissions-section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+
+  .commission-card {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 24px;
+    text-align: center;
+  }
+
+  .commission-image-wrapper {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .commission-image-frame {
+    width: 280px;
+    height: auto;
+  }
+
+  .commission-image {
+    width: 240px;
+    height: auto;
+  }
+
+  .commission-content {
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .commission-members .member-detail {
+    padding-left: 0;
+  }
+
+  .commission-content .btn {
+    align-self: center;
+    margin-top: 20px;
+  }
+}
+
+/* Devices: 425px – 767px (Large Phones) */
+@media (min-width: 425px) and (max-width: 767px) {
+  .commissions-section {
+    padding: 50px 0;
+  }
+
+  .section-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .commission-card {
+    flex-direction: column;
+    gap: 32px;
+    padding: 30px 16px;
+    text-align: center;
+  }
+
+  .commission-image-wrapper {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .commission-image-frame {
+    width: 250px;
+    height: auto;
+  }
+
+  .commission-image {
+    width: 210px;
+    height: auto;
+  }
+
+  .commission-content {
+    padding-top: 0;
+    align-items: center;
+  }
+
+  .commission-name {
+    font-size: 22px;
+  }
+
+  .commission-constituted {
+    font-size: 16px;
+  }
+
+  .commission-members {
+    font-size: 16px;
+  }
+
+  .commission-members .member-detail {
+    padding-left: 0;
+  }
+
+  .commission-content .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+/* Devices: 375px – 424px (Medium Phones) */
+@media (min-width: 375px) and (max-width: 424px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .commission-image-frame {
+    width: 220px;
+  }
+
+  .commission-image {
+    width: 200px;
+  }
+
+  .commission-name {
+    font-size: 20px;
+  }
+
+  .commission-constituted,
+  .commission-members {
+    font-size: 14px;
+  }
+
+  .commission-content .btn {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}
+
+/* Devices: 320px – 374px (Small Phones) */
+@media (max-width: 374px) {
+  .section-title {
+    font-size: 26px;
+  }
+
+  .commission-card {
+    padding: 24px 12px;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .commission-image-wrapper {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .commission-image-frame {
+    width: 200px;
+    height: auto;
+  }
+
+  .commission-image {
+    width: 180px;
+    height: auto;
+  }
+
+  .commission-content {
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .commission-name {
+    font-size: 18px;
+  }
+
+  .commission-constituted {
+    font-size: 14px;
+  }
+
+  .commission-members {
+    font-size: 13px;
+  }
+
+  .commission-members .member-detail {
+    padding-left: 0;
+  }
+
+  .commission-content .btn {
+    font-size: 12px;
+    padding: 8px 16px;
+    align-self: center;
+  }
+}
+
+/* Devices: 2560px+ (Large Displays) */
+@media (min-width: 2560px) {
+  .commission-card {
+    gap: 100px;
+    padding: 160px 200px;
+  }
+
+  .commission-image-frame {
+    width: 420px;
+    height: auto;
+  }
+
+  .commission-image {
+    width: 380px;
+    height: auto;
+  }
+
+  .commission-name {
+    font-size: 36px;
+  }
+
+  .commission-constituted {
+    font-size: 26px;
+  }
+
+  .commission-members {
+    font-size: 22px;
+  }
+
+  .commission-content .btn {
+    font-size: 20px;
+    padding: 16px 40px;
+  }
+}

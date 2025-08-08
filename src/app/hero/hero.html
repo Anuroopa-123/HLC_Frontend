@@ -1,0 +1,31 @@
+<!-- Watch Video Button -->
+<div class="hero-banner">
+  <button class="watch-video-btn" (click)="openVideoModal()">
+    <img src="assets/img3home/1288_1386.svg" alt="Play icon" />
+    <span>Watch Video</span>
+  </button>
+</div>
+
+<!-- Announcement Bar -->
+<div class="announcement-bar">
+  <div class="container">
+    <p>
+      On April 15, 2025, Thiru M.K. Stalin, Hon’ble Chief Minister of Tamil Nadu,
+      announced in the Legislative Assembly the constitution of a three-member High-Level Committee on Union-State Relations
+    </p>
+  </div>
+</div>
+
+<!-- Video Modal -->
+<div class="video-modal" *ngIf="isVideoModalOpen">
+  <div class="video-modal-content">
+    <span class="video-close" (click)="closeVideoModal()">&times;</span>
+    <video #videoPlayer width="100%" height="auto" controls autoplay>
+      <source src="assets/img3home/speech.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<app-doyens></app-doyens>
+<app-committeemembers></app-committeemembers>

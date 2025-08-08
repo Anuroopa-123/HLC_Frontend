@@ -1,0 +1,315 @@
+/* CSS for section section:hero */
+.hero-section {
+  padding-top: 20px;
+}
+.hero-section .container {
+  padding: 0;
+}
+.hero-image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-caption {
+  background-color: #ffffff;
+  border: 1px solid #b9b9b9;
+  padding: 16px 40px;
+  text-align: center;
+}
+.hero-caption p {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .hero-caption p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .hero-caption {
+    padding: 16px;
+  }
+}
+
+/* CSS for section section:terms */
+.terms-section {
+  padding: 120px 0;
+}
+.terms-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #850000;
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 60px;
+}
+.terms-title .lowercase {
+  text-transform: lowercase;
+  font-weight: 600;
+}
+.terms-content-wrapper {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 48px 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+}
+.terms-list {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: justify;
+  color: #232834;
+}
+.terms-list li::marker {
+  font-weight: 700;
+}
+.report-submission-info {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #232834;
+}
+.btn.btn-secondary {
+  background-color: #850000;
+  color: #e6e6f3;
+  padding: 12px 32px;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 700;
+}
+@media (max-width: 992px) {
+  .terms-section { padding: 60px 0; }
+  .terms-title { font-size: 36px; line-height: 48px; }
+  .terms-content-wrapper { padding: 32px; }
+  .terms-list, .report-submission-info { font-size: 20px; line-height: 36px; }
+}
+@media (max-width: 768px) {
+  .terms-title { font-size: 28px; line-height: 40px; }
+  .terms-content-wrapper { padding: 24px; align-items: center; }
+  .terms-list, .report-submission-info { font-size: 16px; line-height: 28px; }
+  .btn.btn-secondary { width: 100%; text-align: center; }
+}
+
+/* CSS for section section:schedule */
+.schedule-section {
+  padding-bottom: 120px;
+}
+.schedule-main-title {
+  font-size: 48px;
+  font-weight: 600;
+  color: #850000;
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+.schedule-main-title .lowercase {
+  text-transform: lowercase;
+}
+.schedule-date-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -25px;
+  position: relative;
+  z-index: 2;
+}
+.schedule-date {
+  background-color: #850000;
+  color: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 11px 27px;
+}
+.schedule-content {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.session-title-card {
+  background-color: #f9f4f5;
+  border: 1px solid #f9f4f5;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 35px;
+  text-align: center;
+  margin: 20px auto;
+  width: fit-content;
+}
+.session-title-card h3 {
+  color: #850000;
+  font-size: 24px;
+  font-weight: 700;
+}
+.schedule-item {
+  display: grid;
+  grid-template-columns: 280px 20px 1fr 165px;
+  gap: 24px;
+  align-items: flex-start;
+}
+.item-topic {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #000000;
+  text-align: left;
+}
+.item-colon {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #000000;
+}
+.item-details {
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+.item-details .speaker-name {
+  font-weight: 600;
+  color: #850000;
+  margin-bottom: 8px;
+}
+.item-details .speaker-title {
+  font-weight: 400;
+}
+.item-details.tamil-text {
+  font-family: 'TAU-Marutham Bold', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+.item-action {
+  justify-self: end;
+}
+.video-btn {
+  background-color: #850000;
+  color: #ffffff;
+  padding: 8px 20px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.schedule-narration {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 20px 0;
+  max-width: 1065px;
+  /* margin: 0 auto; */
+}
+.schedule-highlight {
+  background-color: #f9f4f5;
+  border: 1px solid #f9f4f5;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  /* padding: 24px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.schedule-highlight p {
+  color: #850000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0;
+}
+
+.schedule-subtitle {
+  font-size: 30px !important;
+  font-weight: inherit;
+  line-height: 40px;
+}
+
+
+
+@media (max-width: 1200px) {
+  .schedule-item {
+    grid-template-columns: 200px 20px 1fr 165px;
+  }
+}
+@media (max-width: 992px) {
+  .schedule-content { padding: 40px; }
+  .schedule-item {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .item-colon { display: none; }
+  .item-action { justify-self: start; }
+  .schedule-highlight { flex-direction: column; gap: 16px; text-align: center; }
+}
+@media (max-width: 768px) {
+  .schedule-section { padding-bottom: 60px; }
+  .schedule-main-title { font-size: 28px; line-height: 40px; }
+  .schedule-content { padding: 24px; }
+  .item-topic, .item-details, .schedule-narration, .schedule-highlight p { font-size: 18px; line-height: 28px; }
+}
+
+/* CSS for section section:gallery */
+.gallery-section {
+  padding-bottom: 120px;
+}
+.gallery-wrapper {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 40px;
+}
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.gallery-images img {
+  width: 330px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.gallery-caption {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  .gallery-images {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .gallery-section { padding-bottom: 60px; }
+  .gallery-wrapper { padding: 24px; }
+  .gallery-images img {
+    width: 100%;
+    height: auto;
+  }
+  .gallery-caption {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+
+/* new section */

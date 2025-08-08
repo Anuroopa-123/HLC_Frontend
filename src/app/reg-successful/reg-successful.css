@@ -1,0 +1,96 @@
+/*
+successful */
+
+/* CSS for section section:success-message */
+.success-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-card {
+  background-color: #ffffff;
+  border: 2px solid #e8ebec;
+  border-radius: 8px;
+  max-width: 993px;
+  width: 100%;
+  padding: 62px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+.success-icon {
+  width: 284px;
+  height: 284px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.title {
+  color: #272d37;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.subtitle {
+  color: #49556d;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  max-width: 362px;
+}
+
+@media (max-width: 768px) {
+  .success-card {
+    padding: 40px 20px;
+  }
+
+  .success-icon {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .success-card {
+    padding: 32px 16px;
+    gap: 24px;
+  }
+
+  .success-icon {
+    width: 150px;
+    height: 150px;
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

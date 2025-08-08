@@ -1,0 +1,270 @@
+
+/* CSS for section section:materials */
+.materials-section {
+  padding-top: 60px;
+  padding-bottom: 96px;
+}
+
+.materials-title {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--primary-red);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.materials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.material-card {
+  background: linear-gradient(90deg, #ffffff 13.26%, #ced3df 100%);
+  border: 5px solid rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding: 24px 56px;
+  display: flex;
+  align-items: center;
+  gap: 53px;
+}
+
+.material-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 3.25px;
+  flex-shrink: 0;
+}
+
+.material-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.material-name {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--text-dark);
+}
+
+.material-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-red);
+}
+
+.material-link img {
+  width: 13.5px;
+  height: 27px;
+}
+
+@media (max-width: 768px) {
+  .materials-title {
+    font-size: 36px;
+  }
+  .material-card {
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+    text-align: center;
+  }
+  .material-name {
+    font-size: 24px;
+  }
+  .material-link {
+    font-size: 20px;
+    justify-content: center;
+  }
+}
+
+/* 1024px – 1439px (Laptops) */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .materials-title {
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+  .material-name {
+    font-size: 26px;
+  }
+  .material-link {
+    font-size: 22px;
+  }
+}
+
+/* 769px – 1023px (Tablet Landscape) */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .materials-title {
+    font-size: 38px;
+    margin-bottom: 48px;
+  }
+  .material-card {
+    flex-direction: column;
+    padding: 24px 32px;
+    text-align: center;
+  }
+  .material-name {
+    font-size: 24px;
+  }
+  .material-link {
+    font-size: 20px;
+    justify-content: center;
+  }
+}
+
+/* 426px – 768px (Tablet Portrait and Large Mobiles) */
+@media (min-width: 426px) and (max-width: 768px) {
+  .materials-section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .materials-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .material-card {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .material-image {
+    width: 160px;
+    height: 160px;
+  }
+
+  .material-name {
+    font-size: 22px;
+  }
+
+  .material-link {
+    font-size: 18px;
+  }
+
+  .material-link img {
+    width: 12px;
+    height: 24px;
+  }
+}
+
+/* 375px – 425px (Medium Phones) */
+@media (min-width: 375px) and (max-width: 425px) {
+  .materials-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .material-card {
+    padding: 18px;
+    gap: 18px;
+  }
+
+  .material-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .material-name {
+    font-size: 20px;
+  }
+
+  .material-link {
+    font-size: 16px;
+  }
+
+  .material-link img {
+    width: 11px;
+    height: 22px;
+  }
+}
+
+/* <= 374px (Small Phones) */
+@media (max-width: 374px) {
+  .materials-title {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+
+  .material-card {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .material-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .material-name {
+    font-size: 18px;
+  }
+
+  .material-link {
+    font-size: 15px;
+    gap: 10px;
+  }
+
+  .material-link img {
+    width: 10px;
+    height: 20px;
+  }
+}
+
+/* Ultra-wide screens (>= 1440px) */
+@media (min-width: 1440px) {
+  .materials-title {
+    font-size: 48px;
+  }
+
+  .material-name {
+    font-size: 30px;
+  }
+
+  .material-link {
+    font-size: 24px;
+  }
+}
+
+/* 2560px and above (Ultra HD screens) */
+@media (min-width: 2560px) {
+  .materials-section {
+    padding-top: 100px;
+    padding-bottom: 140px;
+  }
+
+  .materials-title {
+    font-size: 56px;
+    margin-bottom: 80px;
+  }
+
+  .material-card {
+    padding: 40px 80px;
+    gap: 64px;
+  }
+
+  .material-image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .material-name {
+    font-size: 36px;
+  }
+
+  .material-link {
+    font-size: 26px;
+  }
+
+  .material-link img {
+    width: 14px;
+    height: 28px;
+  }
+}

@@ -1,0 +1,29 @@
+<main id="main-content">
+  <section class="otp-section">
+    <div class="container">
+      <div class="otp-card">
+        <h3 class="otp-title">Get <span class="uppercase">OTP</span></h3>
+        <p class="otp-subtitle">Verify your Phone number to continue</p>
+        <!--merged image-->
+        <div class="otp-input-group">
+          <div class="otp-box" *ngFor="let digit of otpDigits; let i = index">
+            <input
+              type="text"
+              maxlength="1"
+              pattern="[0-9]*"
+              autocomplete="off"
+              [(ngModel)]="otpDigits[i]"
+              (input)="onOtpChange($event, i)"
+              (keydown)="onBackspace($event, i)"
+              [attr.id]="'otp-'+i"
+              [attr.name]="'otp-'+i"
+            />
+          </div>
+        </div>
+
+        <p class="resend-link">Didn’t receive a code? <a href="#">Resend</a></p>
+
+      </div>
+    </div>
+  </section>
+</main>

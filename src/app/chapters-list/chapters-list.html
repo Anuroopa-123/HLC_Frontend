@@ -1,0 +1,54 @@
+<section id="chapters">
+  <main class="chapters-container">
+    <h2 class="section-title">Chapters</h2>
+
+    <div class="view-controls">
+      <div class="toggle-group">
+        <button
+          class="view-btn"
+          [class.active]="!isGridView"
+          (click)="toggleView(false)">
+          List
+        </button>
+        <button
+          class="view-btn"
+          [class.active]="isGridView"
+          (click)="toggleView(true)">
+          Grid
+        </button>
+      </div>
+    </div>
+
+    <div [ngClass]="{'chapters-list-wrapper': !isGridView, 'chapters-grid-wrapper': isGridView}">
+
+      <!-- List View -->
+      <div *ngIf="!isGridView" class="chapters-list" role="list">
+        <a *ngFor="let chapter of displayedChapters; let i = index"
+           [routerLink]="['/question', i + 1]"
+           class="chapter-item"
+           role="listitem">
+          <div class="chapter-info">
+            <span class="chapter-number">{{ chapter.number }}</span>
+            <h3 class="chapter-title">{{ chapter.title }}</h3>
+          </div>
+          <img src="assets/imgchalist/{{ chapter.arrow }}" alt="Go to chapter" class="chapter-arrow" />
+        </a>
+      </div>
+
+      <!-- Grid View -->
+      <div *ngIf="isGridView" class="chapters-grid">
+        <a *ngFor="let chapter of displayedChapters; let i = index"
+           [routerLink]="['/question', i + 1]"
+           class="chapter-card">
+          <div class="card-header">
+            <h3>{{ chapter.number }}</h3>
+          </div>
+          <div class="card-body">
+            <p>{{ chapter.title }}</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </main>
+</section>

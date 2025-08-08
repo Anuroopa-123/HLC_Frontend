@@ -1,0 +1,60 @@
+<main id="section-main" class="register-section">
+  <div class="container">
+    <div class="register-card">
+      <div class="register-header">
+        <h2 class="register-title">Register</h2>
+        <p class="register-subtitle">(Placedholder for Register info)</p>
+      </div>
+      <form class="register-form"  (submit)="onSubmit($event)">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+          <label for="age">Age (yrs)</label>
+          <input type="number" id="age" name="age">
+        </div>
+        <div class="form-group">
+          <label for="email">Email id</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+          <label>Professional Category</label>
+          <div class="form-row">
+            <div class="select-wrapper">
+              <select id="category" name="category">
+                <option>Judiciary</option>
+              </select>
+              <img src="assets/imgreg/I56_464_1_4463.svg" alt="dropdown arrow" class="select-arrow">
+            </div>
+            <div class="select-wrapper">
+              <select id="subcategory" name="subcategory">
+                <option></option>
+              </select>
+              <img src="assets/imgreg/I56_468_1_4463.svg" alt="dropdown arrow" class="select-arrow">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="state">State or Union Teritory</label>
+          <div class="select-wrapper">
+            <select id="state" name="state">
+              <option></option>
+            </select>
+            <img src="assets/imgreg/I56_471_1_4463.svg" alt="dropdown arrow" class="select-arrow">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="city">Village/Town/City</label>
+          <input type="text" id="city" name="city">
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn-submit">
+            <span>Register</span>
+            <img src="assets/imgreg/56_480.svg" alt="arrow icon" class="submit-arrow">
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</main>

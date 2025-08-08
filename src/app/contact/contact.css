@@ -1,0 +1,60 @@
+/* CSS for section section:contact */
+.contact-section {
+  padding: 120px 0 60px 0;
+  background-color: #F0F2F5;
+
+}
+
+.contact-heading {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--primary-red);
+  text-align: center;
+  margin-bottom: 60px;
+
+}
+
+.contact-card {
+  max-width: 1056px;
+  margin: 0 auto;
+  background-color: #F0F2F5;/* <-- WHITE BOX */
+  border: 10px solid #fff; /* keeps the thick white border effect */
+  border-radius: 4px;
+  padding: 40px 60px;
+}
+
+.contact-info {
+  font-style: normal;
+  font-family: 'Cabin', sans-serif;
+  font-size: 24px;
+  color: #232834;
+  line-height: 1.7;
+}
+
+.contact-info .contact-person,
+.contact-info .contact-method {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+.contact-info a {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 40px 0;
+
+  }
+  .contact-heading {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .contact-card {
+    padding: 20px;
+  }
+  .contact-info {
+    font-size: 18px;
+  }
+}

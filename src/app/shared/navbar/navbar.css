@@ -1,0 +1,240 @@
+/* Base wrapper */
+.header-nav-wrapper {
+  border-top: 1px solid var(--border-color);
+  width: 100%;
+  /* max-width:1440px; */
+  background-color:#fff;
+  border-bottom: 1px solid #DDE2E9;
+  margin-bottom: 20px;
+
+}
+
+/* Container */
+.container.header-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 71px;
+  padding: 0 24px;
+  /* max-width: 1440px; */
+  margin: 0 auto;
+
+}
+
+/* Main nav base styles */
+.main-nav {
+  display: flex;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 12px;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.main-nav li a {
+  display: flex;
+  align-items: center; /* Vertically center the text */
+  height: 71px; /* Match the .container height */
+  padding: 0 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-dark);
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.main-nav li a.active {
+  color: var(--primary-color);
+}
+
+.main-nav li a.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: var(--primary-color);
+  border-radius: 2px 2px 0 0;
+}
+
+/* CTA buttons */
+.header-cta {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.header-cta a.btn {
+  text-decoration: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: var(--primary-color);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Hamburger icon (hidden by default) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* ========== RESPONSIVE BREAKPOINTS ========== */
+
+/* <=1024px: Tablet & below */
+@media (max-width: 1024px) {
+  .container.header-nav-container {
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+    margin-left: auto;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .main-nav {
+    display: none;
+    width: 100%;
+  }
+
+  .main-nav.open {
+    display: block;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li a {
+    padding: 12px 0;
+    font-size: 18px;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .header-cta {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 12px;
+    gap: 8px;
+  }
+}
+
+/* <=768px: Small tablet & large phone */
+@media (max-width: 768px) {
+  .main-nav li a {
+    font-size: 17px;
+  }
+}
+
+
+
+/* <=425px: Show hamburger, stack menu */
+@media (max-width: 425px) {
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .container.header-nav-container {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px 20px;
+  }
+
+  .main-nav {
+    display: none;
+    width: 100%;
+  }
+
+  .main-nav.open {
+    display: block;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li a {
+    font-size: 16px;
+    padding: 12px 0;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .header-cta {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 12px;
+    gap: 10px;
+  }
+
+  .header-cta a.btn {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none !important;
+  }
+
+  .main-nav {
+    display: flex !important;
+  }
+
+  .main-nav ul {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .main-nav li a {
+    font-size: 18px;
+    padding: 0 12px;
+    border: none;
+  }
+
+  .header-cta {
+    flex-direction: row;
+    width: auto;
+    margin-top: 0;
+  }
+
+  .header-cta a.btn {
+    font-size: 16px;
+    padding: 10px 24px;
+  }
+}
+
+
+/* 768px: Adjust screen-reader controls to right */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .screen-reader-controls {
+    margin-left: auto; /* push to right */
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+}

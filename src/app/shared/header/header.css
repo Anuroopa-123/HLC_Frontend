@@ -1,0 +1,186 @@
+.header-main {
+  padding: 20px 0;
+  /* max-width:1440px; */
+  background-color:#fff;
+}
+
+.container.header-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* gap: 20px; */
+}
+.header-main {
+  padding: 24px 0;
+}
+.header-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  height:382px;
+
+}
+.header-logo {
+  width: 83px;
+  height: 40px;
+}
+.header-titles, .header-committee-titles {
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+}
+.title-tamil {
+  font-family: 'TAU-Marutham Bold', sans-serif;
+  font-size: 38px;
+  color: #252c37;
+  font-weight: 400;
+}
+.title-english {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 36px;
+  color: #252c37;
+  font-weight: 700;
+}
+.logo {
+  width: 83px;
+  height: 91px;
+  object-fit: contain;
+}
+
+.title-group {
+  text-align: center;
+}
+
+.title-tamil {
+  font-family: 'TAU-Marutham', 'Noto Sans Tamil', Arial, sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: #252c37;
+  margin: 0 0 24px 0;
+}
+
+.title-english {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #252c37;
+  margin: 0;
+}
+
+
+
+@media (max-width: 768px) {
+  .header-main {
+    padding: 16px 0;
+  }
+  .logo {
+    width: 60px;
+    height: 65px;
+  }
+  .title-tamil {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .title-english {
+    font-size: 22px;
+  }
+}
+
+/* 1440px+ (Desktop large screens) */
+@media (min-width: 1440px) {
+  .title-tamil {
+    font-size: 42px;
+  }
+
+  .title-english {
+    font-size: 40px;
+  }
+
+  .header-logo {
+    width: 90px;
+    height: 100px;
+  }
+}
+
+/* 1024px – 1439px (Laptop screens) */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .title-tamil {
+    font-size: 36px;
+  }
+
+  .title-english {
+    font-size: 34px;
+  }
+
+  .header-logo {
+    width: 80px;
+    height: 88px;
+  }
+}
+
+/* 768px – 1023px (Tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .title-tamil {
+    font-size: 32px;
+  }
+
+  .title-english {
+    font-size: 30px;
+  }
+
+  .header-logo {
+    width: 70px;
+    height: 78px;
+  }
+}
+
+/* 425px – 767px (Large Phones) */
+@media (min-width: 425px) and (max-width: 767px) {
+  .title-tamil {
+    font-size: 28px;
+  }
+
+  .title-english {
+    font-size: 26px;
+  }
+
+  .header-logo {
+    width: 65px;
+    height: 70px;
+  }
+}
+
+/* 375px – 424px (Medium Phones) */
+@media (min-width: 375px) and (max-width: 424px) {
+  .title-tamil {
+    font-size: 24px;
+  }
+
+  .title-english {
+    font-size: 22px;
+  }
+
+  .header-logo {
+    width: 60px;
+    height: 65px;
+  }
+}
+
+/* 320px – 374px (Small Phones) */
+@media (max-width: 374px) {
+  .title-tamil {
+    font-size: 22px;
+  }
+
+  .title-english {
+    font-size: 20px;
+  }
+
+  .header-logo {
+    width: 55px;
+    height: 60px;
+  }
+}

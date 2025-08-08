@@ -1,0 +1,62 @@
+<main id="section-main" class="main-content">
+  <div class="info-banner">
+    <p>
+      Kindly submit your responses by clicking on
+      <a href="register"><strong>Submit Your Responses</strong></a> button above
+    </p>
+  </div>
+  <div class="content-layout">
+    <aside class="sidebar">
+      <h3 class="sidebar-title">Chapters</h3>
+      <ul class="chapter-list">
+        <li
+          *ngFor="let chapter of chapters; let i = index"
+          class="chapter-item"
+          [class.active]="activeChapterId === i + 1"
+          (click)="navigateToChapter(i + 1)"
+        >
+          <span class="chapter-number">{{ chapter.number }}</span>
+          <span class="chapter-name">{{ chapter.title }}</span>
+        </li>
+        <li class="chapter-item more-chapters">
+          <a href="#">+More chapters</a>
+        </li>
+      </ul>
+    </aside>
+
+    <article class="content-area" *ngIf="currentChapter">
+      <header class="content-header">
+        <h2>{{ currentChapter.number }} - {{ currentChapter.title }}</h2>
+      </header>
+
+      <div class="accordion">
+        <details
+          *ngFor="let question of currentChapter.questions; let idx = index"
+          class="accordion-item"
+          [open]="idx === 0"
+        >
+          <summary class="accordion-header">
+            <div class="accordion-title">
+              <span class="q-number">{{ idx + 1 }}</span>
+              <p>{{ question.title }}</p>
+            </div>
+            <img
+              src="assets/imgquesdetvi/1573_5693.svg"
+              alt="Toggle section"
+              class="toggle-icon"
+            />
+          </summary>
+          <div class="accordion-content" *ngIf="question.subQuestions.length > 0">
+            <div
+              class="sub-question"
+              *ngFor="let subQ of question.subQuestions"
+            >
+              <h4>{{ subQ.title }}</h4>
+              <p>{{ subQ.text }}</p>
+            </div>
+          </div>
+        </details>
+      </div>
+    </article>
+  </div>
+</main>

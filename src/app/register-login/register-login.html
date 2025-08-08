@@ -1,0 +1,26 @@
+<main id="login" class="login-section">
+  <div class="container">
+    <div class="login-card">
+      <h2 class="login-title">REGISTER</h2>
+      <p class="login-subtitle">(Placeholder for Registration info)</p>
+      <form class="login-form" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="mobile-number">Mobile Number</label>
+          <div class="mobile-input-wrapper">
+            <div class="country-code">+91</div>
+            <input type="tel" id="mobile-number" name="mobile-number" [(ngModel)]="mobileNumber" required>
+          </div>
+        </div>
+        <button type="submit" class="btn-otp">
+          <span>Generate OTP</span>
+          <img src="assets/imgpre/1253_1160.svg" alt="arrow icon">
+        </button>
+      </form>
+
+
+      <p class="signup-prompt">
+        Already have an account? <a href="#">Sign In</a>
+      </p>
+    </div>
+  </div>
+</main>
