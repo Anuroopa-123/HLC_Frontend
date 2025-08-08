@@ -5,10 +5,18 @@
   "projects": {
     "front-end": {
       "projectType": "application",
-      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "ta": {
+            "translation": "src/locale/messages.ta.xlf",
+            "baseHref": "/ta/"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
@@ -16,14 +24,14 @@
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js",
-             "@angular/localize/init"
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
                 "glob": "**/*",
                 "input": "src/assets",
-                "output":"assets"
+                "output": "assets"
               }
             ],
             "styles": [
@@ -33,24 +41,15 @@
           },
           "configurations": {
             "production": {
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "4kB",
-                  "maximumError": "8kB"
-                }
-              ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "localize": ["en-US", "ta"]
             },
             "development": {
-              "optimization": false,
-              "extractLicenses": false,
-              "sourceMap": true
+              "localize": ["en-US"]
+            },
+            "ta": {
+              "localize": ["ta"],
+              "outputPath": "dist/front-end/ta"
             }
           },
           "defaultConfiguration": "production"
@@ -59,10 +58,13 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "front-end:build:production"
+              "buildTarget": "build:production"
             },
             "development": {
-              "buildTarget": "front-end:build:development"
+              "buildTarget": "build:development"
+            },
+            "ta": {
+              "buildTarget": "front-end:build:ta"
             }
           },
           "defaultConfiguration": "development"
