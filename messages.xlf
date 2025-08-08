@@ -2,7 +2,7 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-     <trans-unit id="4366668918136529342" datatype="html">
+      <trans-unit id="4366668918136529342" datatype="html">
         <source>high-level committee </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/committeemembers/committeemembers.html</context>
@@ -80,7 +80,7 @@
           <context context-type="linenumber">50,51</context>
         </context-group>
       </trans-unit>
-    <trans-unit id="2521984352233800340" datatype="html">
+      <trans-unit id="2521984352233800340" datatype="html">
         <source>Doyens </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doyens/doyens.html</context>
@@ -155,77 +155,21 @@
           <context context-type="linenumber">59,60</context>
         </context-group>
       </trans-unit>
-    <trans-unit id="778693227674237372" datatype="html">
-          <source>Watch Video</source>
-          <context-group purpose="location">
-            <context context-type="sourcefile">src/app/hero/hero.html</context>
-            <context context-type="linenumber">5,6</context>
-          </context-group>
-        </trans-unit>
-        <trans-unit id="881258334547670036" datatype="html">
-          <source> On April 15, 2025, Thiru M.K. Stalin, Hon’ble Chief Minister of Tamil Nadu, announced in the Legislative Assembly the constitution of a three-member High-Level Committee on Union-State Relations </source>
-          <context-group purpose="location">
-            <context context-type="sourcefile">src/app/hero/hero.html</context>
-            <context context-type="linenumber">13,14</context>
-          </context-group>
-        </trans-unit>
-      <trans-unit id="2821179408673282599" datatype="html">
-        <source>Home</source>
+      <trans-unit id="778693227674237372" datatype="html">
+        <source>Watch Video</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
-          <context context-type="linenumber">15,16</context>
+          <context context-type="sourcefile">src/app/hero/hero.html</context>
+          <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1553822611372360990" datatype="html">
-        <source>About the Committee</source>
+      <trans-unit id="881258334547670036" datatype="html">
+        <source> On April 15, 2025, Thiru M.K. Stalin, Hon’ble Chief Minister of Tamil Nadu, announced in the Legislative Assembly the constitution of a three-member High-Level Committee on Union-State Relations </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
-          <context context-type="linenumber">18,19</context>
+          <context context-type="sourcefile">src/app/hero/hero.html</context>
+          <context context-type="linenumber">13,14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9202609292487178570" datatype="html">
-        <source>Previous Commissions</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
-          <context context-type="linenumber">21,22</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3813685166555321858" datatype="html">
-        <source>Reference Materials</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
-          <context context-type="linenumber">24,25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2181154762165715522" datatype="html">
-        <source>Gallery</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
-          <context context-type="linenumber">27,28</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7922989125096435449" datatype="html">
-        <source>Contact</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
-          <context context-type="linenumber">30,31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3778222862896827175" datatype="html">
-        <source>View Questionnaire</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
-          <context context-type="linenumber">35,36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5222818986365177211" datatype="html">
-        <source>Submit Your Responses</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
-          <context context-type="linenumber">36,37</context>
-        </context-group>
-      </trans-unit>
-       <trans-unit id="187329016270146438" datatype="html">
+      <trans-unit id="187329016270146438" datatype="html">
         <source>Visitor Count</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.html</context>
@@ -280,6 +224,62 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.html</context>
           <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1553822611372360990" datatype="html">
+        <source>About the Committee</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9202609292487178570" datatype="html">
+        <source>Previous Commissions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3813685166555321858" datatype="html">
+        <source>Reference Materials</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2181154762165715522" datatype="html">
+        <source>Gallery</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3778222862896827175" datatype="html">
+        <source>View Questionnaire</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5222818986365177211" datatype="html">
+        <source>Submit Your Responses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
+          <context context-type="linenumber">36,37</context>
         </context-group>
       </trans-unit>
     </body>
