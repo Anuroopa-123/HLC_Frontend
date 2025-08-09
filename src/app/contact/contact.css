@@ -2,7 +2,6 @@
 .contact-section {
   padding: 120px 0 60px 0;
   background-color: #F0F2F5;
-
 }
 
 .contact-heading {
@@ -21,6 +20,9 @@
   border: 10px solid #fff; /* keeps the thick white border effect */
   border-radius: 4px;
   padding: 40px 60px;
+  display: flex;
+  justify-content: center;
+
 }
 
 .contact-info {
@@ -29,12 +31,18 @@
   font-size: 24px;
   color: #232834;
   line-height: 1.7;
+
+  /* ✅ Center the block itself */
+  display: inline-block;
+  text-align: left;
 }
+
 
 .contact-info .contact-person,
 .contact-info .contact-method {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 
 .contact-info a {
