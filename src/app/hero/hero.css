@@ -38,10 +38,12 @@
 }
 .announcement-bar {
   background-color: var(--background-light);
-  border: 1px solid #b9b9b9;
+  border: none; /* Remove all borders */
+  border-bottom: 1px solid #b9b9b9; /* ✅ Only bottom border */
   padding: 16px 0;
-  /* max-width:1440px; */
+  width: 100%;
 }
+
 .announcement-bar p {
   margin: 0;
   text-align: center;
@@ -125,7 +127,7 @@
 /* === 2560px (Ultra-Wide) === */
 @media (min-width: 2560px) {
   .hero-banner {
-    height: 850px;
+    height: 603px;
     padding: 0 120px 100px;
   }
 

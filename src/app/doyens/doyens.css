@@ -24,16 +24,22 @@
   flex-wrap: wrap;
 }
 .doyen-card__image-frame {
-  border: 10px solid var(--background-grey);
-  border-radius: 4.5px;
+  background-color: #ffffff;              /* Inner white frame */
+  padding: 10px;                        /* White space around image (as per Figma) */
+  border: 10px solid #F0F2F5;           /* Outer gray border */
+  border-radius: 8px;
   line-height: 0;
+  display: inline-block;
 }
+
 .doyen-card__image-frame img {
-  border-radius: 3.6px;
   width: 315px;
   height: 379px;
   object-fit: cover;
+  border-radius: 4px;
+  display: block;
 }
+
 .doyen-card__info {
   display: flex;
   flex-direction: column;
