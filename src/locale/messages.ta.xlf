@@ -319,6 +319,536 @@
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
+        <trans-unit id="4915431133669985304" datatype="html">
+        <source>Profile</source>
+        <target> பணிவிளக்கக் குறிப்பு</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/committeemembers/committeemembers.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/committeemembers/committeemembers.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/committeemembers/committeemembers.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8380136299133909740" datatype="html">
+        <source>Previous Commissions <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;lowercase&quot;&gt;"/>on<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Union-State Relations</source>
+        <target>ஒன்றிய-மாநில உறவுகள் குறித்த முந்தைய ஆணையங்கள்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8188834171696630445" datatype="html">
+        <source>Rajamannar Committee Report Cover</source>
+        <target>இராஜமன்னார் குழு அறிக்கையின் கவர்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5346799122635415023" datatype="html">
+        <source>Rajamannar Committee (1969-1971)</source>
+        <target>இராஜமன்னார்க் குழு (1969-1971)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6394167697345107686" datatype="html">
+        <source>constituted by the Government of Tamil Nadu</source>
+        <target>தமிழ் நாடு அரசால் அமைக்கப்பட்டது</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="53524542075960519" datatype="html">
+        <source>Chairman:</source>
+        <target>தலைவர் : </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">65,66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">109,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5650362304221713685" datatype="html">
+        <source>Dr. P. V. Rajamannar,</source>
+        <target>டாக்டர் பி.வி. இராஜமன்னார்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9035570555752155065" datatype="html">
+        <source>Former Chief Justice of the High Court of Madras</source>
+        <target>முன்னாள் தலைமை நீதியரசர், சென்னை உயர் நீதிமன்றம்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1811643672402701875" datatype="html">
+        <source>Member :</source>
+        <target>உறுப்பினர் : </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">117,118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">125,126</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">133,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6578268125757190560" datatype="html">
+        <source>Dr. A. Lakshmanaswami Mudaliar,</source>
+        <target>டாக்டர்  ஆ. இலட்சுமணசாமி முதலியார்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3082405861710942446" datatype="html">
+        <source>Former Vice-Chancellor of the University of Madras</source>
+        <target>முன்னாள் துணை வேந்தர், சென்னைப் பல்கலைக் கழகம்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2831202724150458424" datatype="html">
+        <source>Thiru P. Chandra Reddy,</source>
+        <target>திரு பி. சந்திரா ரெட்டி</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5014540154130052908" datatype="html">
+        <source>View Report</source>
+        <target>அறிக்கை காண்க</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">89,90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">152,153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6907640570477545168" datatype="html">
+        <source>Sarkaria Commission Report Cover</source>
+        <target>சர்க்காரியா ஆணையம் அறிக்கை முகப்பு</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2858636118029523240" datatype="html">
+        <source>Sarkaria Commission (1983-1988)</source>
+        <target>சர்க்காரியா ஆணையம் (1983-1988)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="137360059898542148" datatype="html">
+        <source>constituted by the Government of India</source>
+        <target>ஒன்றிய அரசால் அமைக்கப்பட்டது</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">105,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6519147535757345609" datatype="html">
+        <source>Justice R. S. Sarkaria,</source>
+        <target>நீதியரசர் ஆர்.எஸ். சர்க்காரியா</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">67,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8974179557392763152" datatype="html">
+        <source>Former Judge of the Supreme Court of India</source>
+        <target>முன்னாள் நீதியரசர், இந்திய உச்ச நீதிமன்றம்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7183261553189110359" datatype="html">
+        <source> Thiru. B. Sivaraman, ICS(Retd.)</source>
+        <target>திரு பி. சிவராமன், ஐசிஎஸ்  (ஓய்வு)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">75,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7290717960905494054" datatype="html">
+        <source>Former Cabinet Secretary of India</source>
+        <target>முன்னாள் ஒன்றிய அமைச்சரவை செயலாளர்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">76,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7614479520698637719" datatype="html">
+        <source>Dr. S. R. Sen</source>
+        <target>டாக்டர் எஸ்.ஆர். சென்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">83,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3095257827538920381" datatype="html">
+        <source>Former Executive Director, International Bank for <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Reconstruction and Development</source>
+        <target>முன்னாள் நிருவாக இயக்குநர்,
+பன்னாட்டு  மறுசீரமைப்பு மற்றும் வளர்ச்சி வங்கி
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">84,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6627352450211083959" datatype="html">
+        <source>Punchhi Commission Report Cover</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5770284671422203616" datatype="html">
+        <source>Punchhi Commission (2007-2010)</source>
+        <target>புஞ்சி ஆணையம் (2007-2010)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">104,105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2098509832056915196" datatype="html">
+        <source>Justice Madan Mohan Punchhi,</source>
+        <target>நீதியரசர் மதன் மோகன் புஞ்சி</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">111,112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2212043924520352770" datatype="html">
+        <source>Former Chief Justice of India</source>
+        <target>உச்ச நீதிமன்ற முன்னாள் தலைமை நீதிபதி</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">112,113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7260448471088503538" datatype="html">
+        <source>Thiru Dhirendra Singh, IAS, (Retd.)</source>
+        <target>திரு திரேந்திர சிங், இஆப (ஓய்வு)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">119,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6254791300576965069" datatype="html">
+        <source>Former Union Home Secretary</source>
+        <targte>ஒன்றிய முன்னாள்  உள் துறை செயலாளர்</targte>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">120,121</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">128,129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8994724372476940873" datatype="html">
+        <source> Thiru Vinod Kumar Duggal, IAS, (Retd.)</source>
+        <target>திரு வினோத் குமார் டக்கல், இஆப (ஓய்வு)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">127,128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4714114735963344210" datatype="html">
+        <source> Dr. N.R. Madhava Menon,</source>
+        <target>டாக்டர் என்.ஆர். மாதவ மேனன்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">135,136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9186986234510549880" datatype="html">
+        <source>Former Director, National Law School of India University, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Bengaluru and <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Former Director, National Judicial Academy, Bhopal</source>
+        <target>முன்னாள் இயக்குநர்,   சட்டத் தேசியப் பல்கலைக்கழகம், பெங்களுரு மற்றும்
+முன்னாள் இயக்குநர்,   தேசிய நீதியியல் கல்வி மையம், போபால்
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">136,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3200596812347225128" datatype="html">
+        <source>Member  - :</source>
+        <target>உறுப்பினர் -:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3720646989220793512" datatype="html">
+        <source>Secretary</source>
+        <target> செயலர்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">142,143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2858685627635557241" datatype="html">
+        <source>Thiru Vijay Shanker, IPS (Retd.)</source>
+        <target>திரு விஜய் சங்கர், இகாப (ஓய்வு)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">145,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3349912174171975549" datatype="html">
+        <source>Former Director of CBI</source>
+        <target>முன்னாள் இயக்குநர், ஒன்றியப் புலனாய்வுக் குழு</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/previous-committee/previous-committee.html</context>
+          <context context-type="linenumber">146,147</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="4915431133669985304" datatype="html">
+        <source>Profile</source>
+        <target> பணிவிளக்கக் குறிப்பு</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/committeemembers/committeemembers.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/committeemembers/committeemembers.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/committeemembers/committeemembers.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+         <trans-unit id="2632774378633665363" datatype="html">
+        <source>Thiru K. Ashok Vardhan Shetty IAS (Retd.)</source>
+        <target>திரு. கே. அசோக் வரதன் ஷெட்டி,  இ.ஆ.ப., (ஓய்வு) </target>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/committeemembers/committeemembers.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3196458188524261561" datatype="html">
+        <source> Member - 1 </source>
+        <target>உறுப்பினர்-1 </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/committeemembers/committeemembers.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3813685166555321858" datatype="html">
+        <source>Reference Materials</source>
+        <target>ஆய்வுக் குறிப்புகள்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1143889489729702119" datatype="html">
+        <source>Constitution of India</source>
+        <target>இந்திய அரசமைப்புச் சட்டம்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2509141182388535183" datatype="html">
+        <source>View</source>
+        <target> காண்க</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5305536004193400856" datatype="html">
+        <source>Constituent Assembly Debates</source>
+        <target>அரசமைப்புச் சட்ட அவை விவாதங்கள்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2481390447702919897" datatype="html">
+        <source>Reports of the Finance Commission of India</source>
+        <target>இந்திய நிதிக் குழு ஆணையத்தின் அறிக்கை</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6019987023960505409" datatype="html">
+        <source>World Constitutions</source>
+        <target>உலக அரசமைப்பு சட்டங்கள்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6056366095162777996" datatype="html">
+        <source>Forum of Federations</source>
+        <target>கூட்டாட்சி நாடுகளுக்கான மன்றம் </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1256201361513988647" datatype="html">
+        <source>Memoranda of Government of Tamil Nadu to the Finance Commissions of India</source>
+        <target>இந்திய நிதி ஆணையங்களுக்குத் தமிழ் நாடு அரசின் சார்பாகக் கொடுக்கப்பட்ட  கோரிக்கை  ஆவணங்கள்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reference-materials/reference-materials.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5562779130499238810" datatype="html">
+        <source>Contact Details</source>
+        <target>தொடர்பு விவரங்கள்</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5376635148615731137" datatype="html">
+        <source>Dr. R. Srinivasan,</source>
+        <target>டாக்டர் இராம. சீனிவாசன், </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8089079999104712744" datatype="html">
+        <source>Secretary and Research Officer,</source>
+        <target>செயலாளர் மற்றும் ஆராய்ச்சி அலுவலர், </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2114840589458740968" datatype="html">
+        <source>High-Level Committee on Union-State Relations,</source>
+        <target>ஒன்றிய-மாநில உறவுகளுக்கான உயர் நிலைக் குழு, </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8779471459966017785" datatype="html">
+        <source>Old State Guest House,</source>
+        <target>பழைய மாநில விருந்தினர் மாளிகை, </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1615595316628082471" datatype="html">
+        <source>Walajah Road,</source>
+        <target>வாலாஜா சாலை, </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1376466626736681435" datatype="html">
+        <source>Chepauk, Chennai-600 005.</source>
+        <target>சேப்பாக்கம்,
+சென்னை-600 005.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1609936729581959661" datatype="html">
+        <source>Email Id:</source>
+        <target>மின்னஞ்சல் முகவரி:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
