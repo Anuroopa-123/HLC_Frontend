@@ -2,10 +2,11 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { Doyens } from "../doyens/doyens";
 import { Committeemembers } from "../committeemembers/committeemembers";
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-hero',
-  imports: [Doyens, Committeemembers,CommonModule],
+  imports: [Doyens, Committeemembers,CommonModule,FormsModule],
   templateUrl: './hero.html',
   styleUrl: './hero.css'
 })

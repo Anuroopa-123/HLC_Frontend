@@ -601,5 +601,10 @@ button, .button {
 
 /* successful */
 
+html[lang="ta"] body {
+  font-family: 'TAU-Marutham', sans-serif;
+}
 
-
+html[lang="en-US"] body {
+  font-family: 'Libre Franklin', sans-serif;
+}
